@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Component - コピー\**" />
+    <Content Remove="Component - コピー\**" />
+    <EmbeddedResource Remove="Component - コピー\**" />
+    <None Remove="Component - コピー\**" />
+  </ItemGroup>
+
+</Project>
